@@ -82,7 +82,7 @@ export function PhotoViewer({
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-black/95 animate-fade-in">
-      <div className="safe-top flex items-center justify-between p-3 text-white">
+      <div className="safe-top flex items-center justify-between p-3 text-white pt-10">
         <span className="text-sm text-white/70">
           {current + 1} / {photos.length}
         </span>
